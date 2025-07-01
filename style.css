@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* ----------------Section 1---------------------*/
+.sec1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;   
+}
+.image img{
+    width: 100vw;
+}
+.sec1 .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 1%;
+    left: 20%;
+}
+
+.heading h1>p{
+   display: inline-block;
+    font-size: 30px;
+    font-weight: 400
+}
+
+/* --------------------Section 2------------------ */
+.sec2{
+    background-color: #161619;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 div{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    color: white;
+}
+.sec2 div>h1{
+    font-size: 120px;
+}
+.sec2 div>h2{
+    font-size: 80px;
+    margin: 20px;
+}
+/* ------------------Section 3-------------------- */
+.sec3{
+    width: 100vw;
+}
+.sec3 .boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    height: 90vh;
+    width: 70vw;
+    margin: auto;
+}
+.box{
+    border-radius: 10px;
+    min-height: 65vh;
+    width: 20vw;
+    margin: auto;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+.sec3 .box img{
+    height: 25vh;
+    width: 20vw;
+    object-fit: cover;
+}
+.box h1{
+    padding: 15px;
+}
+.box .para p{
+    text-align: justify;
+    padding: 0px 15px 15px 15px;
+    font-size: 12px;
+}
+/* -------------------Section 4--------------------- */
+.sec4{
+    display: flex;
+}
+.sec4 .content{
+    padding: 70px;
+}
+.sec4 .cont{
+    background-color: antiquewhite;
+}
+.sec4 .about{
+    background-color: rgb(215, 248, 250);
+}
+.sec4 .content h1{
+    font-size: 50px;
+    padding: 0px 0px 20px 0px;
+}
+.sec4 .content p{
+    padding: 0px 0px 20px 0px;
+}
+.sec4 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+/* ----------------Footer--------------- */
+.foot{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.foot h1{
+    padding: 40px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+    
